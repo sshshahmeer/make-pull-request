@@ -1,7 +1,7 @@
-def rev(s):
-	str=" "
+def reverse(s):
+	str = " "
 	for i in s:
-		str=i+str
+		str += i
 	return str
-s=input("enter")
-print(rev(s))
+s = input("Enter: ")
+print(reverse(s))
